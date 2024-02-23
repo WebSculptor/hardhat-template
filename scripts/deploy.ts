@@ -1,26 +1,21 @@
 import { ethers } from "hardhat";
 
 async function main() {
-  const currentTimestampInSeconds = Math.round(Date.now() / 1000);
-  const unlockTime = currentTimestampInSeconds + 60;
+  const amount_to_parse = ethers.parseEther("0.001");
 
-  const lockedAmount = ethers.parseEther("0.001");
+  // if your constructor is taking an argument
+  const withArgument = await ethers.deployContract("YourContractName", [
+    amount_to_parse,
+  ]);
+  await withArgument.waitForDeployment();
 
-  const lock = await ethers.deployContract("Lock", [unlockTime], {
-    value: lockedAmount,
-  });
+  // if your constructor is not taking an argument
+  const withoutArgument = await ethers.deployContract("YourContractName");
+  await withoutArgument.waitForDeployment();
 
-  await lock.waitForDeployment();
-
-  console.log(
-    `Lock with ${ethers.formatEther(
-      lockedAmount
-    )}ETH and unlock timestamp ${unlockTime} deployed to ${lock.target}`
-  );
+  // console.log(`Contract deployed to ${yourContractName.target}`);
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
 main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
