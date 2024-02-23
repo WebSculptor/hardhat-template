@@ -9,7 +9,7 @@ git clone https://github.com/WebSculptor/hardhat-template
 npm install
 ```
 
-Nothing has to be touched in the hardhat.comfig.ts file because I've already configured it. This is how it appears.
+Nothing has to be touched in the `hardhat.comfig.ts` file because I've already configured it. This is how it appears.
 
 ```ts
 import { HardhatUserConfig } from "hardhat/config";
@@ -58,3 +58,5 @@ YOUR_ALCHEMY_SEPOLIA_API_URL="<your-alchemy-sepolia-api-url>"
 YOUR_METAMASK_ACCOUNT_PRIVATE_KEY="<your-metamask-account-private-key>"
 YOUR_ALCHEMY_MUMBAI_API_URL="<your-alchemy-mumbai-api-url>"
 ```
+
+To obtain your alchemy keys, register [here](https://www.alchemy.com/) and follow the instructions.
