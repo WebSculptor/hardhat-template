@@ -60,3 +60,6 @@ YOUR_ALCHEMY_MUMBAI_API_URL="<your-alchemy-mumbai-api-url>"
 ```
 
 To obtain your alchemy keys, register [here](https://www.alchemy.com/) and follow the instructions.
+
+1. Go to your dashboard and click on `view all apps`.
+   <img src="./assets/Alchemy Dashboard.png" width="128"/>
