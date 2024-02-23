@@ -62,16 +62,21 @@ YOUR_ALCHEMY_MUMBAI_API_URL="<your-alchemy-mumbai-api-url>"
 To obtain your alchemy keys, register [here](https://www.alchemy.com/) and follow the instructions.
 
 1. Go to your dashboard and click on `view all apps`.
-   <img src="./assets/Alchemy Dashboard.png" width="830" />
+
+<img src="./assets/Alchemy Dashboard.png" width="830" />
 
 2. Click on create a new app.
-   <img src="./assets/Create a new App.png" width="830" />
+
+<img src="./assets/Create a new App.png" width="830" />
 
 3. Select the networks needed
-   <img src="./assets/Creating App.png" width="830" />
+
+<img src="./assets/Creating App.png" width="830" />
 
 4. Get your API Key for the network
-   <img src="./assets/Get API Key.png" width="830" />
+
+<img src="./assets/Get API Key.png" width="830" />
 
 5. Copy the HTTPS url and paste in your `.env`
-   <img src="./assets/Copy.png" width="830" />
+
+<img src="./assets/Copy.png" width="830" />
