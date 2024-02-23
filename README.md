@@ -2,14 +2,14 @@
 
 Since it takes a while to scarfold a new hardhat project—as we all know—I've given you this code; all you have to do is follow the instructions.
 
-Clone the repo and install the neccessary packages
+### Clone the repo and install the neccessary packages
 
 ```shell
 git clone https://github.com/WebSculptor/hardhat-template
 npm install
 ```
 
-Nothing has to be touched in the `hardhat.comfig.ts` file because I've already configured it. This is how it appears.
+### Nothing has to be touched in the `hardhat.comfig.ts` file because I've already configured it. This is how it appears.
 
 ```ts
 import { HardhatUserConfig } from "hardhat/config";
@@ -50,7 +50,7 @@ const config: HardhatUserConfig = {
 export default config;
 ```
 
-Create a `.env` file, and insert this code into it.
+### Create a `.env` file, and insert this code into it.
 
 ```shell
 YOUR_ALCHEMY_MAINNET_API_URL="<your-alchemy-mainnet-api-url>"
@@ -59,7 +59,7 @@ YOUR_METAMASK_ACCOUNT_PRIVATE_KEY="<your-metamask-account-private-key>"
 YOUR_ALCHEMY_MUMBAI_API_URL="<your-alchemy-mumbai-api-url>"
 ```
 
-To obtain your alchemy keys, register [here](https://www.alchemy.com/) and follow the instructions.
+### To obtain your alchemy keys, register [here](https://www.alchemy.com/) and follow the instructions.
 
 1. Go to your dashboard and click on `view all apps`.
 
