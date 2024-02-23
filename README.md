@@ -63,6 +63,4 @@ To obtain your alchemy keys, register [here](https://www.alchemy.com/) and follo
 
 1. Go to your dashboard and click on `view all apps`.
 
-```html
 <img src="./assets/Alchemy Dashboard.png" width="830" />
-```
