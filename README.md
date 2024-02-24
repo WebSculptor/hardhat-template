@@ -1,6 +1,6 @@
-# HARDHAT PROJECT TEMPLATE
+# HARDHAT PROJECT TEMPLATE: SCAFFOLDING
 
-Since it takes a while to scarfold a new hardhat project—as we all know—I've given you this code; all you have to do is follow the instructions.
+Since it takes a while to scaffold a new hardhat project—as we all know—I've given you this code; all you have to do is follow the instructions.
 
 ### Clone the repo and install the neccessary packages
 
