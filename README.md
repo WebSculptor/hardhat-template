@@ -113,7 +113,7 @@ npm run dev
 ```
 
 4. To run the deploy script to a network, run this command: <br />
-   _Note: Make sure you change the `<your-network-name>` to the network you want to deploy to_
+   _Note: Make sure you change the `<your-network-name>` to the network you want to deploy to_ <br />
    _Make sure to change the file name `scripts/deploy.ts` depending on which file you want to run_
 
 ```shell
