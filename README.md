@@ -86,11 +86,14 @@ YOUR_ALCHEMY_MUMBAI_API_URL = "<your-alchemy-mumbai-api-url>";
 ```json
 {
   "name": "<your-project-name>",
-  "author": "<your-name-goes-here>"
+  "author": "<your-name-goes-here>",
+  "prod": "npx hardhat compile && npx hardhat run scripts/deploy.ts --network <your-network-name>",
 }
 ```
 
 Change `<your-project-name>` to the name of your project and `<your-name-goes-here>` to your name.
+Then change `<your-network-name>` to your desired network.
+Since Sepolia is down, you can use Mumbai
 
 ### Commands to run
 
