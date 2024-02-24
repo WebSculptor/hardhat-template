@@ -120,3 +120,5 @@ npm run prod
 
 _Note: Make sure you change the `<your-network-name>` to the network you want to deploy to_ <br />
 _Make sure to change the file name `scripts/deploy.ts` depending on which file you want to run_
+
+## If theres anything you'd like to change, don't forget to contribute
