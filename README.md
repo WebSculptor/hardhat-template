@@ -52,11 +52,11 @@ export default config;
 
 ### Create a `.env` file, and insert this code into it.
 
-```shell
-YOUR_ALCHEMY_MAINNET_API_URL="<your-alchemy-mainnet-api-url>"
-YOUR_ALCHEMY_SEPOLIA_API_URL="<your-alchemy-sepolia-api-url>"
-YOUR_METAMASK_ACCOUNT_PRIVATE_KEY="<your-metamask-account-private-key>"
-YOUR_ALCHEMY_MUMBAI_API_URL="<your-alchemy-mumbai-api-url>"
+```jsx
+YOUR_ALCHEMY_MAINNET_API_URL = "<your-alchemy-mainnet-api-url>";
+YOUR_ALCHEMY_SEPOLIA_API_URL = "<your-alchemy-sepolia-api-url>";
+YOUR_METAMASK_ACCOUNT_PRIVATE_KEY = "<your-metamask-account-private-key>";
+YOUR_ALCHEMY_MUMBAI_API_URL = "<your-alchemy-mumbai-api-url>";
 ```
 
 ### To obtain your alchemy keys, register [here](https://www.alchemy.com/) and follow the instructions.
@@ -91,3 +91,31 @@ YOUR_ALCHEMY_MUMBAI_API_URL="<your-alchemy-mumbai-api-url>"
 ```
 
 Change `<your-project-name>` to the name of your project and `<your-name-goes-here>` to your name.
+
+### Commands to run
+
+1. To test your contract, run this command:
+
+```shell
+npm run test
+```
+
+2. To run the hardhat node, run this command:
+
+```shell
+npm run node
+```
+
+3. To run the deploy script locally, run this command:
+
+```shell
+npm run dev
+```
+
+4. To run the deploy script to a network, run this command:
+   _Note: Make sure you change the `<your-network-name>` to the network you want to deploy to_
+   _Make sure to change the file name `scripts/deploy.ts` depending on which file you want to run_
+
+```shell
+npm run prod
+```
