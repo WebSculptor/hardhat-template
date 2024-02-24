@@ -80,3 +80,14 @@ YOUR_ALCHEMY_MUMBAI_API_URL="<your-alchemy-mumbai-api-url>"
 5. Copy the HTTPS url and paste in your `.env`
 
 <img src="./assets/Copy.png" width="830" />
+
+### Navigate to the `package.json` and change this lines:
+
+```json
+{
+  "name": "<your-project-name>",
+  "author": "<your-name-goes-here>"
+}
+```
+
+Change `<your-project-name>` to the name of your project and `<your-name-goes-here>` to your name.
